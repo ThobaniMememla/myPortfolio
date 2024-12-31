@@ -1,0 +1,153 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+		<script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+		<script type="text/javascript">
+			window.tailwind.config = {
+				darkMode: ['class'],
+				theme: {
+					extend: {
+						colors: {
+							border: 'hsl(var(--border))',
+							input: 'hsl(var(--input))',
+							ring: 'hsl(var(--ring))',
+							background: 'hsl(var(--background))',
+							foreground: 'hsl(var(--foreground))',
+							primary: {
+								DEFAULT: 'hsl(var(--primary))',
+								foreground: 'hsl(var(--primary-foreground))'
+							},
+							secondary: {
+								DEFAULT: 'hsl(var(--secondary))',
+								foreground: 'hsl(var(--secondary-foreground))'
+							},
+							destructive: {
+								DEFAULT: 'hsl(var(--destructive))',
+								foreground: 'hsl(var(--destructive-foreground))'
+							},
+							muted: {
+								DEFAULT: 'hsl(var(--muted))',
+								foreground: 'hsl(var(--muted-foreground))'
+							},
+							accent: {
+								DEFAULT: 'hsl(var(--accent))',
+								foreground: 'hsl(var(--accent-foreground))'
+							},
+							popover: {
+								DEFAULT: 'hsl(var(--popover))',
+								foreground: 'hsl(var(--popover-foreground))'
+							},
+							card: {
+								DEFAULT: 'hsl(var(--card))',
+								foreground: 'hsl(var(--card-foreground))'
+							},
+						},
+					}
+				}
+			}
+		</script>
+		<style type="text/tailwindcss">
+			@layer base {
+				:root {
+					--background: 0 0% 100%;
+--foreground: 222.2 84% 4.9%;
+--card: 0 0% 100%;
+--card-foreground: 222.2 84% 4.9%;
+--popover: 0 0% 100%;
+--popover-foreground: 222.2 84% 4.9%;
+--primary: 221.2 83.2% 53.3%;
+--primary-foreground: 210 40% 98%;
+--secondary: 210 40% 96.1%;
+--secondary-foreground: 222.2 47.4% 11.2%;
+--muted: 210 40% 96.1%;
+--muted-foreground: 215.4 16.3% 46.9%;
+--accent: 210 40% 96.1%;
+--accent-foreground: 222.2 47.4% 11.2%;
+--destructive: 0 84.2% 60.2%;
+--destructive-foreground: 210 40% 98%;
+--border: 214.3 31.8% 91.4%;
+--input: 214.3 31.8% 91.4%;
+--ring: 221.2 83.2% 53.3%;
+				}
+				.dark {
+					--background: 222.2 84% 4.9%;
+--foreground: 210 40% 98%;
+--card: 222.2 84% 4.9%;
+--card-foreground: 210 40% 98%;
+--popover: 222.2 84% 4.9%;
+--popover-foreground: 210 40% 98%;
+--primary: 217.2 91.2% 59.8%;
+--primary-foreground: 222.2 47.4% 11.2%;
+--secondary: 217.2 32.6% 17.5%;
+--secondary-foreground: 210 40% 98%;
+--muted: 217.2 32.6% 17.5%;
+--muted-foreground: 215 20.2% 65.1%;
+--accent: 217.2 32.6% 17.5%;
+--accent-foreground: 210 40% 98%;
+--destructive: 0 62.8% 30.6%;
+--destructive-foreground: 210 40% 98%;
+--border: 217.2 32.6% 17.5%;
+--input: 217.2 32.6% 17.5%;
+--ring: 224.3 76.3% 48%;
+				}
+			}
+		</style>
+  </head>
+  <body>
+    <div class="bg-background text-foreground min-h-screen">
+  <nav class="bg-primary text-primary-foreground p-4 flex justify-between items-center">
+    <div class="flex items-center">
+      <img src="./Screenshot_20241221_114256_Instagram.png" alt="Thobani Memela" class="w-10 h-10 rounded-full mr-2" />
+      <div class="text-xl font-bold">Thobani Memela</div>
+    </div>
+    <ul class="flex space-x-4">
+      <li><a href="#" class="hover:text-primary-foreground">About</a></li>
+      <li><a href="https://github.com/ThobaniMememla" class="hover:text-primary-foreground">GitHub</a></li>
+      <li><a href="#" class="hover:text-primary-foreground">Contact</a></li>
+      <li><a href="https://www.linkedin.com/in/thobani-memela-417403221" class="hover:text-primary-foreground">LinkedIn</a></li>
+    </ul>
+  </nav>
+  <header class="p-8 text-center">
+    <h1 class="text-4xl font-bold">Software Engineer Portfolio</h1>
+    <p class="mt-4 font-bold">Welcome to my portfolio showcasing my projects and skills!</p>
+  </header>
+  <section class="p-8">
+    <h2 class="text-2xl font-bold">About Me</h2>
+    <p class="mt-4">
+      I am a passionate and detail-oriented software engineer with more than 2 years of experience, dedicated to delivering innovative solutions that enhance business operations and positively impact
+      lives. My professional journey has allowed me to work on diverse projects, including dynamic web applications, Java-based systems leveraging the Javelin framework, and comprehensive data
+      engineering solutions. I have a proven track record of designing and implementing efficient data pipelines using SQL and Python, coupled with expertise in data processing, storage, and
+      retrieval. Additionally, I bring strong proficiency in front-end development with React.js and Angular, ensuring seamless user experiences through intuitive and responsive interfaces. My skills
+      encompass Java development, software design patterns, problem-solving, and data engineering. I thrive in collaborative environments, where I can contribute my expertise and continually learn
+      from others. Looking forward, I am eager to tackle new challenges and be part of an innovative team, creating technology that inspires creativity, fosters collaboration, and drives meaningful
+      change.
+    </p>
+  </section>
+  <section class="p-8">
+    <h2 class="text-2xl font-bold">GitHub</h2>
+    <div class="flex items-center justify-center mt-4">
+      <a href="https://github.com/ThobaniMememla" class="bg-primary text-primary-foreground px-6 py-3 rounded-lg shadow hover:bg-primary/80">Visit GitHub</a>
+    </div>
+  </section>
+  <section class="p-8">
+    <h2 class="text-2xl font-bold">Contact Me</h2>
+    <p class="mt-4">Feel free to reach out to me at s220280444@gmail.com</p>
+  </section>
+  <section class="p-8">
+    <h2 class="text-2xl font-bold">LinkedIn</h2>
+    <div class="flex items-center justify-center mt-4">
+      <a href="https://www.linkedin.com/in/thobani-memela-417403221" class="bg-primary text-primary-foreground px-6 py-3 rounded-lg shadow hover:bg-primary/80">Visit LinkedIn</a>
+    </div>
+  </section>
+  <section class="p-8">
+    <h2 class="text-2xl font-bold">My Picture</h2>
+    <div class="flex items-center justify-center mt-4">
+      <img src="./Screenshot_20241221_114256_Instagram.png" alt="Thobani Memela" class="w-48 h-48 rounded-full shadow-lg" />
+    </div>
+  </section>
+  <footer class="bg-primary text-primary-foreground text-center p-4">&copy; 2023 Thobani Memela</footer>
+</div>
+  </body>
+</html>
